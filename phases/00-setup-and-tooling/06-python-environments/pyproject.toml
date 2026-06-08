@@ -1,0 +1,9 @@
+[project]
+name = "06-python-environments"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["numpy==2.3.5"]
+
+[project.optional-dependencies]
+torch = ["torch>=2.3", "torchvision>=0.18"]
+llm = ["anthropic>=0.39", "openai>=1.50"]
